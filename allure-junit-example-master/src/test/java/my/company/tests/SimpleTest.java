@@ -33,6 +33,7 @@ public class SimpleTest {
 
     @Test
     public void simpleTestWithSteps() throws Exception {
+    	System.out.println("Added to test github -> jenkins job");
         checkThat2is2();
     }
 
@@ -50,7 +51,9 @@ public class SimpleTest {
     @Description("Test shows CSV attachment")
     @Test
     public void csvAttachmentTest() throws Exception {
-        saveCsvAttachment();
+        System.out.println("Added to test github -> jenkins job");
+        System.out.println("Added to test github -> jenkins job");
+    	saveCsvAttachment();
     }
 
     @Attachment(value = "Sample csv attachment", type = "text/csv")

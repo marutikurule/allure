@@ -19,6 +19,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * @author Dmitry Baev charlie@yandex-team.ru
  *         Date: 28.10.13
  */
+
+//Added comment to test github -> jenkins job
+
 public class WebDriverSteps {
 
     private WebDriver driver;
