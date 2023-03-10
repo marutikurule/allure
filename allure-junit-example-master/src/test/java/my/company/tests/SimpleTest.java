@@ -34,6 +34,7 @@ public class SimpleTest {
     @Test
     public void simpleTestWithSteps() throws Exception {
     	System.out.println("Added to test github -> jenkins job");
+        	System.out.println("Added to test github -> jenkins job");//testfeature
         checkThat2is2();
     }
 
